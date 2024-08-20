@@ -6,30 +6,62 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/txt_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="256sp"
-        android:textAlignment="center"
         android:background="@color/yellow"
-        android:text="@string/_0"/>
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textSize="256sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+
+        >
         <Button
-            android:id="@+id/btn_toast"
+            android:id="@+id/btn_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/toast"/>
+            android:layout_marginRight="10px"
+            android:text="MINUS"/>
         <Button
             android:id="@+id/btn_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginLeft="10px"
             android:text="@string/count"/>
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast"
+        android:id="@+id/btn_toast"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:id="@+id/txt_nama"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Nama"
+        android:id="@+id/input_name"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch Page"
+        android:id="@+id/btn_switch"
+        />
 
 </LinearLayout>
