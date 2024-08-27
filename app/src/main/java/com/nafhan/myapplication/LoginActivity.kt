@@ -19,6 +19,13 @@ class LoginActivity: AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
         with(binding){
+
+            inputUsername.maxLines = 1
+            inputPassword.maxLines = 1
+
+            inputUsername.imeOptions = android.view.inputmethod.EditorInfo.IME_ACTION_NEXT
+            inputPassword.imeOptions = android.view.inputmethod.EditorInfo.IME_ACTION_DONE
+
             inputUsername.addTextChangedListener(object: TextWatcher{
                 override fun beforeTextChanged(
                     s: CharSequence?,

@@ -3,8 +3,6 @@ package com.nafhan.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.widget.Toast
 import com.nafhan.myapplication.databinding.ActivityMainBinding
 
@@ -32,25 +30,33 @@ class MainActivity : AppCompatActivity() {
                 }
                 txtNumber.text = number.toString();
             }
-            inputName.addTextChangedListener(object: TextWatcher{
-                override fun beforeTextChanged(
-                    s: CharSequence?,
-                    start: Int,
-                    count: Int,
-                    after: Int
-                ) {
-                }
-
-                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                }
-
-                override fun afterTextChanged(s: Editable?) {
-                    txtNama.setText(s)
-                }
-            })
+//            inputName.addTextChangedListener(object: TextWatcher{
+//                override fun beforeTextChanged(
+//                    s: CharSequence?,
+//                    start: Int,
+//                    count: Int,
+//                    after: Int
+//                ) {
+//                }
+//
+//                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+//                }
+//
+//                override fun afterTextChanged(s: Editable?) {
+//                    txtNama.setText(s)
+//                }
+//            })
 
             btnSwitch.setOnClickListener {
                 startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+            }
+
+            btnSwitchPert3.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Pert2Activity::class.java))
+            }
+
+            btnSwitchPert3Tugas.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Pert2TugasActivity::class.java))
             }
         }
     }

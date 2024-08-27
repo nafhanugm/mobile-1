@@ -40,17 +40,17 @@
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"
         />
-    <ImageView
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_music"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/image_music"
-        android:id="@+id/img_music"
         android:layout_below="@id/txt_title"
         android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
-        android:background="@drawable/rounded_button"
         android:clipToOutline="true"
-        />
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        android:src="@drawable/image_music" />
 
     <RelativeLayout
         android:layout_width="match_parent"

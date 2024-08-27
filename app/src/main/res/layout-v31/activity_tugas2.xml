@@ -41,44 +41,32 @@
         android:layout_alignParentRight="true"
         />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/img_music"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_below="@id/txt_title"
         android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
-        android:background="@drawable/rounded_button"
         android:clipToOutline="true"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
         android:src="@drawable/image_music" />
-
-    <RelativeLayout
+    <SeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="30dp"
+        android:id="@+id/seek_bar"
+        android:layout_below="@+id/img_music"
         android:layout_marginTop="60dp"
+        android:paddingHorizontal="30dp"
         android:gravity="center_vertical"
-        android:id="@+id/rl_slide"
-        android:layout_below="@id/img_music">
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_centerInParent="true"
-            android:background="@drawable/line"
-            android:foregroundGravity="center_vertical" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_circle_24"
-            />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="15dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/baseline_circle_24"
-            app:tint="#AF47D2" />
-    </RelativeLayout>
+        android:progress="50"
+        android:splitTrack="false"
+        android:progressTint="@color/yellow"
+        android:progressDrawable="@drawable/progress"
+        android:maxHeight="6dp"
+        android:minHeight="6dp"
+        android:thumb="@drawable/baseline_circle_24"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -88,7 +76,7 @@
         android:id="@+id/txt_author_ply"
         android:fontFamily="@font/poppins_medium"
         android:layout_centerInParent="true"
-        android:layout_below="@id/rl_slide"
+        android:layout_below="@id/seek_bar"
         android:layout_marginTop="30dp"
         android:textSize="18sp"
         />

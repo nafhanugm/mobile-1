@@ -1,50 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Aps>
-	<Group>
-		<Page Width="191" Height="3" PaperTray="0">
-			<Canvas>
-				<Canvas>
-					<Clip>
-						<Path FillMode="Winding">
-							<PathFigure IsClosed="True">
-								<PolyLine LineColor="#FF000000">
-									<Point X="0" Y="3" />
-									<Point X="0" Y="0" />
-								</PolyLine>
-								<PolyLine LineColor="#FF000000">
-									<Point X="0" Y="0" />
-									<Point X="191.25" Y="0" />
-								</PolyLine>
-								<PolyLine LineColor="#FF000000">
-									<Point X="191.25" Y="0" />
-									<Point X="191.25" Y="3" />
-								</PolyLine>
-								<PolyLine LineColor="#FF000000">
-									<Point X="191.25" Y="3" />
-									<Point X="0" Y="3" />
-								</PolyLine>
-							</PathFigure>
-						</Path>
-					</Clip>
-					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 3">
-						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Square" LineJoin="Miter" MiterLimit="10" StartCap="Square" Width="3">
-							<Brush>
-								<SolidBrush Color="#FFFFDB00" />
-							</Brush>
-						</Pen>
-						<PathFigure IsClosed="False">
-							<PolyLine LineColor="#FF000000">
-								<Point X="1.5" Y="1.5" />
-								<Point X="1.5" Y="1.5" />
-							</PolyLine>
-							<PolyLine LineColor="#FF000000">
-								<Point X="1.5" Y="1.5" />
-								<Point X="189.756" Y="1.5" />
-							</PolyLine>
-						</PathFigure>
-					</Path>
-				</Canvas>
-			</Canvas>
-		</Page>
-	</Group>
-</Aps>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners  android:radius="50dp"/>
+    <solid android:color="@color/yellow"></solid>
+</shape>

@@ -43,25 +43,37 @@
         android:text="@string/toast"
         android:id="@+id/btn_toast"
         />
-    <TextView
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Nama"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="50dp"-->
+<!--        android:id="@+id/txt_nama"-->
+<!--        />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Input Nama"-->
+<!--        android:id="@+id/input_name"-->
+<!--        />-->
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
-        android:textAlignment="center"
-        android:textSize="50dp"
-        android:id="@+id/txt_nama"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Input Nama"
-        android:id="@+id/input_name"
+        android:text="Tugas Pertemuan 2"
+        android:id="@+id/btn_switch"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Switch Page"
-        android:id="@+id/btn_switch"
+        android:text="Pertemuan 3"
+        android:id="@+id/btn_switch_pert3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tugas Pertemuan 3"
+        android:id="@+id/btn_switch_pert_3_tugas"
         />
 
 </LinearLayout>

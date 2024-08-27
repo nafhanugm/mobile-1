@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFF043</color>
+    <color name="blackgradient">#FF1D263D</color>
+    <color name="purplegradient">#FFAF47D2</color>
 </resources>
