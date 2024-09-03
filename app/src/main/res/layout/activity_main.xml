@@ -75,5 +75,11 @@
         android:text="Tugas Pertemuan 3"
         android:id="@+id/btn_switch_pert_3_tugas"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tugas Pertemuan 4"
+        android:id="@+id/btn_switch_pert_4_tugas"
+        />
 
 </LinearLayout>

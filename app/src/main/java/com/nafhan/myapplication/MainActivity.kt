@@ -58,6 +58,10 @@ class MainActivity : AppCompatActivity() {
             btnSwitchPert3Tugas.setOnClickListener {
                 startActivity(Intent(this@MainActivity, Pert2TugasActivity::class.java))
             }
+
+            btnSwitchPert4Tugas.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Pert3TugasActivity::class.java))
+            }
         }
     }
 }

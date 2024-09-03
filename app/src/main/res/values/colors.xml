@@ -5,4 +5,7 @@
     <color name="yellow">#FFF043</color>
     <color name="blackgradient">#FF1D263D</color>
     <color name="purplegradient">#FFAF47D2</color>
+    <color name="text_calculator">#FF6A6A6A</color>
+    <color name="calculator_primary">#FFFF8F00</color>
+
 </resources>
