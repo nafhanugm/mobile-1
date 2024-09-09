@@ -7,5 +7,9 @@
     <color name="purplegradient">#FFAF47D2</color>
     <color name="text_calculator">#FF6A6A6A</color>
     <color name="calculator_primary">#FFFF8F00</color>
+    <color name="input_background">#FFEDEDED</color>
+    <color name="input_text">#FF828282</color>
+    <color name="primary_button">#FF525BFF</color>
+
 
 </resources>

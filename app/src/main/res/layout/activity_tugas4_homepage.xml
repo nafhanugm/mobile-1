@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="30dp"
+    tools:context=".Pert4TugasActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Username"
+        android:textSize="20dp"
+        android:id="@+id/welcome_username"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your email has been activated"
+        android:textSize="20dp"
+        android:id="@+id/email_activated"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your phone has been registered"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:id="@+id/phone_registered"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+
+
+
+</LinearLayout>
