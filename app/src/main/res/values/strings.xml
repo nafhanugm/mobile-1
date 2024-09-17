@@ -16,5 +16,32 @@ SM-S901N (Korea); SM-S9010 (China); SM-S901E (Asia/Africa)</string>
     <string name="already_have_an_account">Already have an account? <font color='#525BFF'>Login</font></string>
     <string name="accept_terms">By checking the box you agree to our <font color='#525BFF'>Terms</font><font color='#000000'> and </font><font color='#525BFF'>Conditions.</font></string>
     <string name="new_member">New Member? <font color='#525BFF'>Register</font></string>
+    <array name="provinces">
+        <item>Tujuan</item>
+        <item>Aceh (4.000.000) </item>
+        <item>Bali (2.000.000) </item>
+        <item>Banten (3.000.000) </item>
+        <item>Bengkulu (1.000.000) </item>
+        <item>Gorontalo (1.200.000) </item>
+        <item>Jakarta (1.450.000) </item>
+        <item>Jambi (1.500.000) </item>
+        <item>Jawa Barat (1.750.000) </item>
+        <item>Jawa Tengah (1.230.000) </item>
+        <item>Jawa Timur (1.290.000) </item>
+    </array>
+
+    <array name="harga">
+        <item>0</item>
+        <item>4.000.000</item>
+        <item>2.000.000</item>
+        <item>3.000.000</item>
+        <item>1.000.000</item>
+        <item>1.200.000</item>
+        <item>1.450.000</item>
+        <item>1.500.000</item>
+        <item>1.750.000</item>
+        <item>1.230.000</item>
+        <item>1.290.000</item>
+    </array>
 
 </resources>

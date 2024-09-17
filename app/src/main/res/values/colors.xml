@@ -10,6 +10,7 @@
     <color name="input_background">#FFEDEDED</color>
     <color name="input_text">#FF828282</color>
     <color name="primary_button">#FF525BFF</color>
+    <color name="red_button">#FFFF527B</color>
 
 
 </resources>
