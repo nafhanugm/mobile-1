@@ -70,6 +70,9 @@ class MainActivity : AppCompatActivity() {
             btnSwitchPert6Tugas.setOnClickListener {
                 startActivity(Intent(this@MainActivity, Pert5TugasActivity::class.java))
             }
+            btnSwitchPert8Tugas.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Pert8Activity::class.java))
+            }
         }
     }
 }
