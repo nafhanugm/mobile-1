@@ -1,9 +1,8 @@
 <resources>
-<!--    <string name="app_name">Hello Toast</string>-->
+    <!--    <string name="app_name">Hello Toast</string>-->
     <string name="toast">TOAST</string>
     <string name="_0">0</string>
     <string name="count">COUNT</string>
-    <string name="app_name">My Phone</string>
     <string name="phone_name">Samsung Galaxy S22 5G</string>
     <string name="phone_price">$599.99</string>
     <string name="phone_description">Versions: SM-S901B, SM-S901B/DS
@@ -13,5 +12,14 @@ SM-S901N (Korea); SM-S9010 (China); SM-S901E (Asia/Africa)</string>
     <string name="camera">50 MP, f/1.8, 23mm (wide)</string>
     <string name="bookmark">Bookmark</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus  adipiscing elit. Nam et sem id est bibendum varius nec in risus. Nulla lectus tortor, viverra at magna quis, vestibulum consectetur urna. Integer volutpat non ante eget porta. Nullam pulvinar luctus felis non consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eget est justo. Praesent ac turpis elit. Nulla sit amet nulla leo. Pellentesque finibus, ex vel bibendum maximus, urna odio gravida velit, nec condimentum turpis ex posuere odio.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">MyTabLayout</string>
+    <array name="tabs">
+        <item>@string/tab_text_1</item>
+        <item>@string/tab_text_2</item>
+    </array>
+    <string name="tab_text_1">Register</string>
+    <string name="tab_text_2">Login</string>
 
 </resources>
