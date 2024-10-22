@@ -11,6 +11,8 @@
     <color name="input_text">#FF828282</color>
     <color name="primary_button">#FF525BFF</color>
     <color name="red_button">#FFFF527B</color>
+    <color name="text_secondary">#FF777777</color>
+    <color name="bni_primary">#FFE16417</color>
 
 
 </resources>
