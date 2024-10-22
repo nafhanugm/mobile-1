@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="30dp"
+    tools:context=".Pert4TugasActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back Username"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/welcome_username"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avatar"
+        android:contentDescription="avatar"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How are you today?"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/how_are_you"
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        android:textColor="#1E293B"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sad"
+            android:backgroundTint="#E73838"
+            android:background="@drawable/rounded_button"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/happy"
+            android:backgroundTint="#5CDA9F"
+            android:background="@drawable/rounded_button"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

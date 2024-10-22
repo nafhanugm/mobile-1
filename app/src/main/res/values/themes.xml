@@ -6,7 +6,8 @@
     </style>
     <!-- Base application theme with ActionBar. -->
     <style name="Base.Theme.MyCourse.WithActionBar"
-        parent="Theme.Material3.DayNight">
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_button</item>
         <!-- Customize your light theme here, similar to the theme without
        ActionBar. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
@@ -14,5 +15,16 @@
     <!-- Themes that can be applied to the application or specific activities. -->
     <style name="Theme.MyCourse" parent="Base.Theme.MyCourse" />
     <style name="Theme.MyCourse.WithActionBar"
-        parent="Base.Theme.MyCourse.WithActionBar" />
+        parent="Base.Theme.MyCourse.WithActionBar" >
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+<!--        primary color-->
+        <item name="colorPrimary">@color/primary_button</item>
+    </style>
+    <style name="MyActionBar" parent="Theme.Material3.Dark">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="colorPrimary" >@color/primary_button</item>
+        <item name="background">@color/primary_button</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
 </resources>

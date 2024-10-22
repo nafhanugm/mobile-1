@@ -1,10 +1,12 @@
 package com.nafhan.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.nafhan.myapplication.databinding.FragmentQuizBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,8 +35,17 @@ class FragmentQuiz : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_quiz, container, false)
+        var binding = FragmentQuizBinding.inflate(layoutInflater)
+        binding.btnLogin.setOnClickListener {
+            var usernameText = binding.username.text.toString()
+            startActivity(Intent(context, Pert8DashboardActivity::class.java).apply {
+                putExtra("username", usernameText)
+            })
+        }
+        binding.textRegister.setOnClickListener {
+            Pert8Activity.viewPagers.currentItem = 0
+        }
+        return binding.root
     }
 
     companion object {
