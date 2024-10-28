@@ -84,6 +84,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Tugas Pertemuan 10"
+        android:id="@+id/btn_switch_pert_10_tugas"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Tugas Pertemuan 8"
         android:id="@+id/btn_switch_pert_8_tugas"
         />
