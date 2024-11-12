@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:minHeight="150dp"
+    android:weightSum="100"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:src="@drawable/hamil"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="assaas "
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                style="@style/TextAppearance.Compat.Notification.Info"
+                />
+                <ImageView
+                    android:src="@drawable/hanip"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="like "
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/TextAppearance.Compat.Notification.Info"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="dislike "
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/TextAppearance.Compat.Notification.Info"
+                        />
+                </LinearLayout>
+                \\
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

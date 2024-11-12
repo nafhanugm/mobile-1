@@ -66,6 +66,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Pertemuan 12"
+        android:id="@+id/btn_switch_pert12"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Pertemuan 3"
         android:id="@+id/btn_switch_pert3"
         />

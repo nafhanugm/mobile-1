@@ -43,7 +43,7 @@ SM-S901N (Korea); SM-S9010 (China); SM-S901E (Asia/Africa)</string>
         <item>1.290.000</item>
     </array>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_name">MyTabLayout</string>
+    <string name="app_name">counter</string>
     <array name="tabs">
         <item>@string/tab_text_1</item>
         <item>@string/tab_text_2</item>
