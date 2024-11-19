@@ -89,6 +89,8 @@ class MainActivity : AppCompatActivity() {
             btnSwitchPert12.setOnClickListener {
                 startActivity(Intent(this@MainActivity, Pert12Activity::class.java))
             }
+
+
         }
     }
 }

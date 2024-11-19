@@ -13,6 +13,8 @@
     <color name="red_button">#FFFF527B</color>
     <color name="text_secondary">#FF777777</color>
     <color name="bni_primary">#FFE16417</color>
+    <color name="green">#FF00A220</color>
+    <color name="blue">#FF3B80A7</color>
 
 
 </resources>
